@@ -1,0 +1,8 @@
+package geometry;
+
+import java.awt.geom.Point2D;
+import java.lang.Math;
+
+public class Intersection {
+
+}

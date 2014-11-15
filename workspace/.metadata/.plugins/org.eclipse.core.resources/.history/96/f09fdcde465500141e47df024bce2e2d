@@ -1,0 +1,33 @@
+package geometry;
+
+import java.awt.geom.Point2D;
+import java.lang.Math;
+
+public class Intersection {
+	private Point2D point1;
+	private Point2D point2;
+	
+	public comparePoint(Point2D pt1, Point2D pt2){
+		
+		Point2D point1 = pt1;
+		Point2D point2 = pt2;
+		Point2D maxPointX;
+		Point2D minPointX;
+		Point2D maxPointY;
+		Point2D minPointY;
+		
+		if (pt1.getX() > pt2.getX()){
+			return maxPointX = pt1; minPointX = pt2;
+		}else{
+			return maxPointX = pt2; minPointX = pt1;
+		}
+		if (pt1.getY() > pt2.getY()){
+			return maxPointY = pt1; minPointY = pt2;
+		}else{
+			return maxPointY = pt2; minPointY = pt1;
+		}	
+			
+			
+	}
+
+}

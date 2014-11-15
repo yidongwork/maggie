@@ -1,0 +1,50 @@
+package vehicle;
+
+public class Wheelchair extends Vehicle{
+	public int getNumOfSeats(){
+		return 1;
+	}
+	
+	public int getNumOfWheels(){
+		return 2;
+	}
+	
+	public int speedUp(){
+		return 3;
+	}
+	
+	public String getCostOfEngery(){
+		return "man power";
+		
+	}
+	
+}
+
+//int wheels = 2;
+//int speed = 0;
+//String Energy_Source = "man power";
+//
+//void numOfWheels (int num){
+//	wheels = num;
+//}
+//
+//void speedUp (int handPower){
+//	speed = speed + handPower;
+//}
+//
+//void breaks (int holdTheBreak){
+//	speed = speed - holdTheBreak;
+//}
+//
+//public static void main(String args[]){
+//	Wheelchair wheelchair = new Wheelchair();
+//	
+//	
+//	wheelchair.numOfWheels(2);
+//	wheelchair.speedUp(20);
+//	wheelchair.breaks(30);
+//	
+//	System.out.println("The number of wheels: " + getNumOfWheels);
+//	
+//}
+

@@ -1,0 +1,33 @@
+package vehicle;
+
+public class Vehicle {
+	int seats = 0;
+	int wheels = 0;
+	int speed = 0;
+	String Energy_Source = "";
+	String Vehicle_Type = "";
+	
+	public int getNumOfSeats() {
+		return seats;
+	}
+	
+	public int getNumOfWheels(){
+		return wheels;
+		
+	}
+	
+	public int speedUp(){
+		return speed;
+		
+	}
+	
+	public String getCostOfEngery(){
+		return Energy_Source;
+		
+	}
+	
+	public String getVehicleType(){
+		return Vehicle_Type;
+	}
+
+}

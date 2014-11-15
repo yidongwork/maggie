@@ -1,0 +1,10 @@
+package vehicle;
+
+public interface Vehicle_Superclass {
+	int seats = 0;
+	int wheels = 0;
+	int speed = 0;
+	String Energy_Source = "";
+	
+
+}

@@ -1,0 +1,122 @@
+package geometry;
+
+import java.awt.geom.Point2D;
+import java.lang.Object;
+import java.util.ArrayList;
+import java.awt.Polygon;
+
+public class Poly extends Polygon{
+	
+	public Point2D testPt;
+	public Point2D[] vertex;
+	
+	
+	public Poly(double[] a, double[] b2, int nPoints){
+		super();
+//		this.polyX = polyX;
+//		this.polyY = polyY;
+	}
+	
+	
+	
+	public void calculateIntersection(Point2D testPt){
+		
+	}
+	
+	
+	
+	
+	public static boolean isOn(Segment a, Point2D testPt){
+		
+	}
+	
+	public static boolean isOn(Point2D[]vertex, Point2D testPt){
+		
+	}
+	
+	public static void main (String args[]){
+		double[] a = new double[] {1.0,2.0,3.0,4.0,5.0};
+		double[] b = new double[] {3.0,4.0,5.0,6.0,7.0};
+		ArrayList<Segment> t = new ArrayList<Segment>();
+//		a = 
+		Poly polygon = new Poly(a, b, 5);
+		
+		Point2D engPoint = new Point2D.Double(testPt.getX(), Double.MAX_VALUE);
+		
+		
+		Segment Seg = new Segment (testPt, endPoint);
+		for (int i = 0; i < 5; i++) {
+			for (int j = 0; j < 5; j++) {
+				t.add(new Segment(new Point2D.Double(a[i%5], b[i%5]), new Point2D.Double(a[(i+1)%5], b[(i+1)%5])));
+			}
+		}
+		int counter = 0;
+		for (int i = 0; i < t.size(); i++) {
+			if (Segment.intersection(Seg, t.get(i)))
+				counter++;
+		}
+		if (counter%2 == 0) {
+			System.out.println("out");
+		}
+		else 
+			System.out.println("in");
+		return;
+//		Polygon poly.addPoint (3, 5);
+		
+//		public int [] Ray (Point2D testPt){
+//			double k, b, endX, endY;
+//			b = testPt.getY();
+//			double x1, y1;
+//			Point2D ptEnd;
+//			endX = Double.MAX_VALUE;
+//		
+//		}
+			
+		}
+	
+		
+		
+		
+
+
+		int i = 0;
+		for (// all se)
+		s.calculateIntersection(int[]Ray, b)
+		i++;
+				if (i%2 == 0) false
+		Polygon polyX[] = new Polygon Xpoly[];
+	
+		int polyX[] = {2, 5, 9, 4, 3};
+		int polyY[] = {1, 0, 5, 9, 7};
+		Polygon polygon = new Polygon (polyX, polyY, polyX.length);
+	
+	
+	
+}
+
+//public boolean isInPolygon (Point2D point, Point2D[] points, int n){
+//
+//	
+//	int intersectPoint; 
+//	for (int i = 0; i < n; i++){
+//		Point2D pt1 = points[i];
+//		Point2D pt2 = points[(i+1) % n];
+//		
+//		if (p1.y == p2.y)
+//			continue;
+//		if (point.y < Math.min(p1.y, p2.y))
+//			continue;
+//		if (point.y >= Math.math(p1.y, p2.y))
+//			continue;
+//	}
+//	
+//	return (intersectPoint % 2 == 1);
+	
+//}
+//	public boolean contains(Point2D testPt){
+//	Point2D testPt = (int x, int y);
+//	boolean result = false;
+//	for (i = 0, )
+//	
+//}
+
